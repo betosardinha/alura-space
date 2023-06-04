@@ -1,8 +1,9 @@
 import React from 'react';
+import Homepage from './pages/Homepage';
 
 function App() {
   return (
-    <h1>Alura Space</h1>
+    <Homepage />
   );
 }
 
