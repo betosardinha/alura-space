@@ -1,6 +1,6 @@
 import React from 'react';
-import LogoImg from '../../images/logo-type-white.svg';
-import SearchIcon from '../../images/icons/search.svg';
+import LogoImg from '../../assets/images/logo-type-white.svg';
+import SearchIcon from '../../assets/icons/search.svg';
 
 import styles from './Header.module.scss';
 

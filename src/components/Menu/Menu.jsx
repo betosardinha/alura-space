@@ -1,10 +1,10 @@
 import React from 'react';
 
-import HomeIcon from '../../images/icons/home-active.svg';
-import MostLikedIcon from '../../images/icons/most-liked.svg';
-import MostViewsIcon from '../../images/icons/most-views.svg';
-import NewIcon from '../../images/icons/new.svg';
-import SurpriseMeIcon from '../../images/icons/surprise-me.svg';
+import HomeIcon from '../../assets/icons/home-active.svg';
+import MostLikedIcon from '../../assets/icons/most-liked.svg';
+import MostViewsIcon from '../../assets/icons/most-views.svg';
+import NewIcon from '../../assets/icons/new.svg';
+import SurpriseMeIcon from '../../assets/icons/surprise-me.svg';
 
 import styles from './Menu.module.scss';
 

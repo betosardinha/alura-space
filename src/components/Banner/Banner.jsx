@@ -1,6 +1,6 @@
 import React from 'react';
 
-import BannerImg from '../../images/banner.jpg';
+import BannerImg from '../../assets/images/banner.jpg';
 
 import styles from './Banner.module.scss';
 
