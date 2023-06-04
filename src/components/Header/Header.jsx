@@ -1,14 +1,15 @@
 import React from 'react';
 import Logo from '../../images/logo-type-white.svg';
 import SearchIcon from '../../images/icons/search.svg';
-import './Header.css';
+
+import styles from './Header.module.scss';
 
 function Header() {
   return (
-    <header>
+    <header className={styles.header}>
       <img src={Logo} alt="Logo do Alura Space" />
-      <div>
-        <input type="text" placeholder="O que você procura?" />
+      <div className={styles.header__container}>
+        <input className={styles.header__input} type="text" placeholder="O que você procura?" />
         <img src={SearchIcon} alt="Ícone de lupa" />
       </div>
     </header>
