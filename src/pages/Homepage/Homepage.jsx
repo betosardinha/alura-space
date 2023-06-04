@@ -1,13 +1,20 @@
 import React from 'react';
+import Banner from '../../components/Banner';
 import Header from '../../components/Header/Header';
 import Menu from '../../components/Menu';
-import './Homepage.css';
+
+import styles from './Homepage.module.scss';
 
 function Homepage() {
   return (
     <>
       <Header />
-      <Menu />
+      <main>
+        <section className={styles.main}>
+          <Menu />
+          <Banner />
+        </section>
+      </main>
     </>
   );
 }
