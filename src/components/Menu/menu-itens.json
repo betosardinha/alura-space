@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "path": "/assets/icons/home-active.svg",
+    "alt": "Ícone de uma casa",
+    "link": "Inicío"
+  },
+  {
+    "id": 2,
+    "path": "/assets/icons/most-views.svg",
+    "alt": "ícone de um olho",
+    "link": "Mais vistas"
+  },
+  {
+    "id": 3,
+    "path": "/assets/icons/most-liked.svg",
+    "alt": "ícone de uma mão com o polegar opositor levantado",
+    "link": "Mais curtidas"
+  },
+  {
+    "id": 4,
+    "path": "/assets/icons/new.svg",
+    "alt": "icone de uma estrelinha brilhante",
+    "link": "Novas"
+  },
+  {
+    "id": 5,
+    "path": "/assets/icons/surprise-me.svg",
+    "alt": "ícone de uma lâmpada",
+    "link": "Surpreenda-me"
+  }
+]

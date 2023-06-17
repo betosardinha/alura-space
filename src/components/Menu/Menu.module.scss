@@ -12,32 +12,4 @@
     flex-direction: column;
     justify-content: space-around;
   }
-
-  &__item {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-
-    &:first-child {
-      a {
-        font-weight: 700;
-        color: $color-secondary;
-        font-family: $font-primary;
-      }
-    }
-  }
-
-  img {
-    margin-right: 0.5rem;
-    width: 25px;
-    height: 25px;
-    cursor: pointer;
-  }
-
-  a {
-    text-decoration: none;
-    font-size: 1.125rem;
-    color: $color-text;
-    font-family: $font-primary;
-  }
 }
