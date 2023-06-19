@@ -1,5 +1,7 @@
 import React from 'react';
 
+import Button from 'components/Button';
+
 import images from './images.json';
 
 import styles from './Popular.module.scss';
@@ -15,7 +17,7 @@ function Popular() {
           </li>
         ))}
       </ul>
-      <button type="button">Ver mais fotos</button>
+      <Button>Ver mais fotos</Button>
     </aside>
   );
 }
