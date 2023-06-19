@@ -9,7 +9,7 @@ function Cards({ items }) {
   return (
     <ul className={styles.cards}>
       {items.map((item) => (
-        <Card item={item} />
+        <Card key={item.id} item={item} />
       ))}
     </ul>
   );
