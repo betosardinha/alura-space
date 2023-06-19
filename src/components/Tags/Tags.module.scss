@@ -1,9 +1,7 @@
 @import "styles/vars";
 
 .tags {
-  width: 60vw;
   display: flex;
-  justify-content: space-between;
   align-items: center;
   color: $color-text;
   font-family: $font-primary;
@@ -14,17 +12,23 @@
   }
 
   &__list {
+    margin-left: 10px;
     list-style: none;
     width: 380px;
     padding: 0;
     display: flex;
     justify-content: space-between;
 
-    li {
+
+    button {
       background-color: $tag-color;
+      border: none;
+      color: $color-text;
+      font-family: $font-primary;
+      cursor: pointer;
       padding: 6px 10px;
       border-radius: 8px;
-      cursor: pointer;
+      font-size: 16px;
     }
   }
 }
